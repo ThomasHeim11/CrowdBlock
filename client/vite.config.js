@@ -7,5 +7,10 @@ export default defineConfig({
   define: {
     global: "globalThis",
     "process.env": {},
+    build: {
+      rollupOptions: {
+        external: ["@safe-globalThis/safe-ethers-adapters"],
+      },
+    },
   },
 });
