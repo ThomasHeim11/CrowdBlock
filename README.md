@@ -1,4 +1,5 @@
 <img width="1640" alt="Screenshot 2023-05-26 at 11 47 18" src="https://github.com/ThomasHeim11/Web3-Project-/assets/106417552/98d386d3-664d-444e-910a-dc4d7f3239a3">
+
 # CrowdFunding Smart Contract
 This repository contains a crowdfunding application built using Vite and Solidity smart contracts. The application allows users to create crowdfunding campaigns, donate to campaigns, and view campaign details.
 
