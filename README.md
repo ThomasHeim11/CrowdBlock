@@ -1,25 +1,34 @@
 # CrowdFunding Smart Contract
-This repository contains a Solidity smart contract for managing crowdfunding campaigns on the Ethereum blockchain. The contract allows users to create campaigns, accept donations, and retrieve information about campaigns and their donors.
+This repository contains a crowdfunding application built using Vite and Solidity smart contracts. The application allows users to create crowdfunding campaigns, donate to campaigns, and view campaign details.
+
 
 ## Features
-Create new crowdfunding campaigns with details such as owner, title, description, target amount, deadline, and associated image.
-Accept donations to a specific campaign.
-Retrieve a list of donators and their respective donations for a campaign.
-Get the list of all existing crowdfunding campaigns.
+- Create new crowdfunding campaigns with a title, description, target amount, deadline, and associated image.
+- Connect to the application using MetaMask wallet.
+- Donate to existing campaigns with the desired donation amount.
+- View campaign details including the owner, title, description, target amount, deadline, amount collected, and associated image.
+- Get a list of all campaigns and filter campaigns by the owner's address.
+- Retrieve the list of donors and their donations for a specific campaign.
 
-## Smart Contract Details
-Solidity version: ^0.8.9
-License: UNLICENSED (SPDX-License-Identifier: UNLICENSED)
 
-Usage
-Install the required dependencies for Solidity development.
-Deploy the CrowdFunding smart contract to an Ethereum network of your choice.
-Interact with the contract using a compatible Ethereum wallet or by making calls to the contract functions programmatically.
-Create campaigns using the createCampaign function, specifying the campaign details.
-Accept donations to a campaign by calling the donateToCampaign function and providing the campaign ID and the desired amount to donate.
-Retrieve information about a campaign's donators and their donations using the getDonators function.
-Get the list of all campaigns and their details using the getCampaigns function.
-Feel free to explore and modify the smart contract according to your specific requirements.
+## Prerequisites
+- Node.js and npm installed on your machine.
+- MetaMask wallet installed in your browser.
 
-License
-This project is licensed under the UNLICENSED license. Refer to the LICENSE file for more information.
+## Installation
+1. Clone this repository: git clone <repository-url>
+2. Navigate to the project directory: cd <project-directory>
+3. Install the dependencies: npm install
+  
+## Usage
+1. Start the React development server: npm start
+2. Connect your MetaMask wallet to the application.
+3. Create a new campaign by filling in the required details.
+4. Browse existing campaigns and donate to the ones you wish to support.
+5. View campaign details and the list of donors for each campaign.
+
+## Credits
+The Vite application utilizes the @thirdweb-dev/react library for interacting with the Ethereum blockchain and the @thirdweb-dev/sdk library for parsing Ethereum data.
+
+## License
+ This project is licensed under the UNLICENSED license. Refer to the LICENSE file for more information.
