@@ -36,3 +36,5 @@ The Vite application utilizes the @thirdweb-dev/react library for interacting wi
 
 ## License
  This project is licensed under the UNLICENSED license. Refer to the LICENSE file for more information.
+
+[![Thomas HeimLinkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thomas-heim11/)
